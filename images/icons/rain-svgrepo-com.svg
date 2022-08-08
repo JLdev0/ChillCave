@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+</style>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="184.001" x2="512" y2="184.001">
+			<stop  offset="0" style="stop-color:#8960FF"/>
+			<stop  offset="1" style="stop-color:#5C5CFF"/>
+		</linearGradient>
+		<path class="st0" d="M432,167.3c-8.4-89.7-84.1-160-176-160S88.5,77.6,80,167.3c-45.5,8.3-80,48.2-80,96
+			c0,53.8,43.7,97.5,97.5,97.5h36.6v-36.6H97.5c-33.6,0-61-27.3-61-61s27.3-61,61-61h18.3V184c0-77.3,62.9-140.2,140.2-140.2
+			S396.2,106.7,396.2,184v18.3h18.3c33.6,0,61,27.3,61,61s-27.3,61-61,61h-36.6v36.6h36.6c53.8,0,97.5-43.7,97.5-97.5
+			C512,215.4,477.4,175.6,432,167.3z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="203.3276" y1="379.0679" x2="290.915" y2="379.0679">
+			<stop  offset="0" style="stop-color:#8960FF"/>
+			<stop  offset="1" style="stop-color:#5C5CFF"/>
+		</linearGradient>
+		<polygon class="st1" points="203.3,497.2 255.1,253.4 290.9,261 239.1,504.8 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="286.8701" y1="354.7118" x2="364.0924" y2="354.7118">
+			<stop  offset="0" style="stop-color:#8960FF"/>
+			<stop  offset="1" style="stop-color:#5C5CFF"/>
+		</linearGradient>
+		<polygon class="st2" points="286.9,448.4 328.3,253.4 364.1,261 322.6,456 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="140.5593" y1="354.6722" x2="217.7816" y2="354.6722">
+			<stop  offset="0" style="stop-color:#8960FF"/>
+			<stop  offset="1" style="stop-color:#5C5CFF"/>
+		</linearGradient>
+		<polygon class="st3" points="140.6,448.4 182,253.4 217.8,261 176.3,456 		"/>
+	</g>
+</g>
+</svg>

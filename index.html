@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	  <meta name="viewport" content="width=device-width, initial-scale=0.75, mininum-scale=0.75, maximum-scale=0.75">
+		
+		<title>Chill Cave</title>
+    
+		<!-- external CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/player.css" />
+		<link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/top.css" />
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+    <div id="hola">
+      <div id="preloader">
+      <span></span>
+      <span></span>
+        </div>
+          </div>
+        <section class="background" id="outside">
+            <h1 id='title'>Chill Cave</h1>
+            <img src="./images/stars_1-01.png" id="stars1" alt="">
+            <img src="./images/stars_2-01.png" id="stars2">
+            <img src="./images/Moon.png" class="blend" id="moon" alt="">
+            <img src="./images/skymesh.png" class="blend" id="mesh" alt="">
+            <img src="./images/back_cliff-01.png" id="back_cliff" alt="">
+            <img src="./images/terrain_floor.png" id="terrain_floor" alt="">
+            <img src="./images/outer_cavewall.png" id="outer_cavewall" alt="">
+            <img src="./images/outside_firecamp_glow-01.png" class="blend" id="outside_firecamp_glow" alt="">
+            <img src="./images/outside_firecamp-01.png" id="outside_firecamp" alt="">
+            <img src="./images/inner_cave_plants-01.png" id="inner_cave_plants" alt="">
+            <img src="./images/inner_cavewall-01.png" id="inner_cavewall" alt="">
+            <button id="button">Enter the Cave</button>
+        </section>
+        <div class="sec">
+        </div>
+        <div id="modal-background">
+          <div id="musicSound" class="modal">
+            <div class="modal-header">
+              <span class="closeModal">x</span>
+              <h1 class="heading">Select a Sound</h1>
+            </div>
+              <div class="modal-content" id="content">
+                <div class="content">
+                    <a class="card" href="#!">
+                      <div class="front" style="background-image: url(https://i.ytimg.com/vi/WDXPJWIgX-o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5ppCZ18qs8ii5MF-XJMZNz6YnDA)">
+                          <p>Lofi hip hop anime</p>
+                      </div>
+                      <div class="back">
+                          <div>
+                              <p>Your favorite anime openings and</p>
+                              <p>music but it's lofi, this goes criminally hard and is very relaxing.</p><button id="anime" class="button">Click Here</button>
+                          </div>
+                      </div>
+                  </a><a class="card" href="#!">
+                      <div class="front" style="background-image: url(https://i.ytimg.com/vi/jrTMMG0zJyI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhUzUiBFbpY0xXNNA0yq4N3x3WmA)">
+                          <p>Lofi hip hop japanese</p>
+                      </div>
+                      <div class="back">
+                          <div>
+                              <p>Calm yourself and indulge in </p>
+                              <p>comforting sounds of Japan filled with traditional instruments and eastern asian influence.</p><button id="japanese" class="button">Click Here</button>
+                          </div>
+                      </div>
+                  </a><a class="card" href="#!">
+                      <div class="front" style="background-image: url(https://i.ytimg.com/vi/5qap5aO4i9A/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6KAYW8BN9j5s-5nSSxs_g3DdfmA)">
+                          <p>Lofi hip hop <br>girl</p>
+                      </div>
+                      <div class="back">
+                          <div>
+                              <p>We all know and love the lofi hip hop girl</p>
+                              <p>the most popular lofi stream and one of the longest running.</p><button id="girl" class="button">Click Here</button>
+                          </div>
+                      </div>
+                  </a>
+                  <h2 class="heading" id="customSong">Custom Song</h2>
+                  <div class="search_wrap search_wrap_5">
+                    <div class="search_box">
+                      <input type="text" class="input" id="urlInput"placeholder="Youtube URL">
+                      <div class="btn" id="customMusic" value="Submit">
+                        <p>Submit</p>
+                      </div>
+                      <div class="btn" id="chooseAgain">
+                        <p>Choose another video</p>
+                      </div>
+                    </div> 
+                  </div>  
+                </div>
+              </div>
+            <div class="modal-footer"></div> 
+          </div>     
+          <div id="ambientSound" class="modal">
+            <div class="modal-header">
+              <span class="closeModal">x</span>
+              <h1 class="heading">Select a Sound</h1>
+            </div>
+              <div class="modal-content" id="content">
+                <div class="content">
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/campfire-svgrepo-com.svg)">
+                          <p class="cardtext"></p>
+                      </div>
+                      <div class="back1">
+                          <div>
+                             <p>The sounds of a warm Campfire and the crackling of wood.</p>
+                              <div class="playerWrap">
+                                <div id="campfire_sound" class= "ambientPlayer"
+                                data-plyr-provider="youtube"
+                                data-plyr-embed-id="UgHKb_7884o"
+                                    >
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/drop-svgrepo-com.svg)">
+                          <p class="cardtext"></p>
+                      </div>
+                      <div class="back1">
+                          <div>
+                             <p>The sounds of water slowly dripping down from the ceiling.</p>
+                              <div id="waterdrip_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="https://www.youtube.com/watch?v=-TiAPym7ObA"
+                                  >
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/rain-svgrepo-com.svg)">
+                          <p class="cardtext"></p>
+                    </div>
+                    <div class="back1">
+                        <div>
+                            <p>The sounds of Rain outside of your room hitting the windows.</p>
+                            <div id="raining_sound" class= "ambientPlayer"
+                            data-plyr-provider="youtube"
+                            data-plyr-embed-id="_x3hVRSIe2g"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/wind-svgrepo-com.svg)">
+                          <p class="cardtext"></p>
+                      </div>
+                      <div class="back1">
+                          <div>
+                              <p>The sounds of a gentle breeze in a flat field.</p>
+                              <div id="wind_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="https://youtu.be/Hr7OhqoMzi4"
+                                  >
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/bird-svgrepo-com.svg)">
+                          <p class="cardtext"></p>
+                      </div>
+                      <div class="back1">
+                          <div>
+                            <p>The sounds of birds chirping in the forest.</p>
+                              <div id="bird_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="Qm846KdZN_c"
+                                  >
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card1" href="#!">
+                      <div class="front1" style="background-image: url(./images/icons/big-wave-svgrepo-com.svg)">
+                        <p class="cardtext"></p>
+                    </div>
+                    <div class="back1">
+                        <div>
+                            <p>The sounds of Waves hitting the beach.</p>
+                            <div id="wave_sound" class= "ambientPlayer"
+                            data-plyr-provider="youtube"
+                            data-plyr-embed-id="vPhg6sc1Mk4"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>  
+              <div class="modal-footer"></div>      
+            </div> 
+          </div>
+          <div id="whiteSound" class="modal">
+            <div class="modal-header">
+              <span class="closeModal">x</span>
+              <h1 class="heading">Select a Sound</h1>
+            </div>
+              <div class="modal-content" id="content">
+                <div class="content">
+                    <a class="card2" href="#!">
+                      <div class="front2" style="background-image: url(/images/backgrounds/cave.jpg)">
+                          <p>Cavern</p>
+                      </div>
+                      <div class="back2">
+                          <div>
+                              <p>The cave is a getaway for
+                              people looking to relax and focus.</p>
+                              <div id="cavern_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="baCLcnS2iEg"
+                                  >
+                              </div>            
+                          </div>
+                      </div>
+                  </a>
+                  <a class="card2" href="#!">
+                    <div class="front2" style="background-image: url(/images/backgrounds/city.jpg)">
+                        <p>City</p>
+                    </div>
+                    <div class="back2">
+                        <div>
+                            <p>Be transported to the bustling city of New York</p>
+                            <div id="city_sound" class= "ambientPlayer"
+                            data-plyr-provider="youtube"
+                            data-plyr-embed-id="Vg1mpD1BICI"
+                                >
+                            </div>             
+                        </div>
+                    </div>
+                  </a>
+                  <a class="card2" href="#!">
+                    <div class="front2" style="background-image: url(/images/backgrounds/future.jpg)">
+                        <p>Cyberpunk</p>
+                    </div>
+                    <div class="back2">
+                        <div>
+                            <p>The year is 3200 and your the urban city surrounded by robots.</p>
+                            <div id="cyberpunk_sound" class= "ambientPlayer"
+                            data-plyr-provider="youtube"
+                            data-plyr-embed-id="nJ38P5elTkg"
+                                >
+                            </div>        
+                        </div>
+                    </div>
+                    </a>
+                    <a class="card2" href="#!">
+                      <div class="front2" style="background-image: url(/images/backgrounds/forest.jpg)">
+                          <p>Enchanted Forest</p>
+                      </div>
+                      <div class="back2">
+                          <div>
+                              <p>An enchanted forest with calming sounds of nature.</p>
+                              <div id="forest_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="https://www.youtube.com/watch?v=XxEhuSJF780"
+                                  >
+                              </div>      
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card2" href="#!">
+                      <div class="front2" style="background-image: url(/images/backgrounds/tavern.jpg)">
+                          <p>Tavern</p>
+                      </div>
+                      <div class="back2">
+                          <div>
+                              <p>Immerse yourself in the</p>
+                              <p>rowdy and homie sounds of a Tavern.</p>
+                              <div id="tavern_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="_4OfDN6X9oc"
+                                  >
+                              </div>    
+                          </div>
+                      </div>
+                    </a>
+                    <a class="card2" href="#!">
+                      <div class="front2" style="background-image: url(./images/backgrounds/japan.jpg)">
+                          <p>Japanese Home</p>
+                      </div>
+                      <div class="back2">
+                          <div>
+                              <p>The calming ambience of being in a summer japanese home.
+                              </p>
+                              <div id="japanhome_sound" class= "ambientPlayer"
+                              data-plyr-provider="youtube"
+                              data-plyr-embed-id="gFNAwqDbyaY"
+                                  >
+                              </div>    
+                          </div>
+                      </div>
+                    </a>
+                    <h2 class="heading" id="customSong">Custom Sound</h2>
+                    <div class="search_wrap search_wrap_5">
+                      <div class="search_box">
+                        <input type="text" class="input" id="urlInput2"placeholder="Youtube URL">
+                        <div class="btn" id="customMusic2" value="Submit">
+                          <p>Submit</p>
+                        </div>
+                        <div class="btn" id="chooseAgain2">
+                          <p>Choose another sound</p>
+                        </div>
+                      </div> 
+                      <div id="player2" class= "ambientPlayer"
+                      data-plyr-provider="youtube"
+                      data-plyr-embed-id="baCLcnS2iEg"
+                          >
+                      </div>  
+                    </div>
+                  </div>
+                </div>  
+              <div class="modal-footer"></div>                   
+            </div>  
+          </div>  
+        </div> 
+        <section class="background" id="inside" >
+            <div id="wrapper-main" class="behind">
+              <figure class="clock">
+                <div class="mins">0</div>
+                <div class="colon">:</div>
+                <div class="secs">00</div>
+                <audio src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
+                <svg class="progress-ring">
+                  <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#5c5cff" />
+                      <stop offset="100%" stop-color="#8960ff" />
+                    </linearGradient>
+                  </defs>
+                  <circle class="progress-ring__circle" stroke-width="12" fill="transparent" r="330" cx="360" cy="360" stroke="url(#gradient)"/>
+                </svg>
+                <svg class="static-ring">
+                  <circle class="static-ring__circle" stroke-width="12" fill="transparent" r="330" cx="360" cy="360" />
+                </svg>
+                <p class="session"></p>
+                <button class="start">&nbsp;</button>
+                <button class="reset"><i>⟲</i> Reset</button>
+                <button class="pause">&nbsp;</button>
+              </figure>
+          
+              <form action="." class="behind">
+                <label for="focusTime">Focus Time</label>
+                <input type="number" value="1" id="focusTime" />
+                <label for="breakTime">Break Time</label>
+                <input type="number" value="1" id="breakTime" />
+                <button type="submit">Save settings</button> 
+                <p>🛈 Settings apply for next Session.</p>
+              </form>
+              <div id="liveStream" class= "test"
+              data-plyr-provider="youtube"
+              data-plyr-embed-id="5qap5aO4i9A"
+                  >
+              </div>
+              <div id="wrapper">
+              <h2 id="musicTitle">lofi hip hop radio - beats to relax/study 
+              </h2>
+              </div>
+            </div>
+            <div >
+              <img src="./images/sleeping_bag.png" id="sleeping_bag" class="popupButton" alt="">
+              <img src="./images/camp_fire.png" id="camp_fire" class="popupButton" alt="">
+              <img src="./images/under_glow-01.png" class="blend" id="under_glow" alt="">
+              <img src="./images/tape.svg" id="tape" class="popupButton" alt="">
+            </div>     
+        </section>
+        <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+        <script src = "./js/music.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/settings.js"></script>
+        <script src="./js/timer.js"></script>
+        <script src="./js/progress.js"></script>
+        <script src="./js/disablescroll.js"></script>
+		    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
